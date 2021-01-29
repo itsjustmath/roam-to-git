@@ -10,7 +10,8 @@ import pyppeteer.connection
 from loguru import logger
 from pyppeteer.page import Page
 
-ROAM_FORMATS = ("json", "markdown", "edn")
+# ROAM_FORMATS = ("json", "markdown", "edn")
+ROAM_FORMATS = ("json", "edn")
 
 
 def patch_pyppeteer():
